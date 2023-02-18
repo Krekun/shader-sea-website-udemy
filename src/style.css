@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Mynerve&family=Oswald:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Merriweather', serif; */
+  font-family: 'Mynerve', cursive;
+}
+
+html,
+body {
+  overflow: hidden;
+  color: white;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+  z-index: -1;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+header.logo {
+  font-size: 35px;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header ul li {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+header ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 17;
+  font-weight: 500;
+}
+
+main {
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-46%, -50%);
+  text-align: center;
+}
+
+main h1 {
+  font-size: 5rem;
+  color: rgb(39, 8, 241);
+
+  white-space: nowrap;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF,
+    -1px 1px 0 #FFF, 1px -1px 0 #FFF,
+    0px 1px 0 #FFF, 0-1px 0 #FFF,
+    -1px 0 0 #FFF, 1px 0 0 #FFF;
+}
+
+main p {
+  font-size: 20px;
+}
